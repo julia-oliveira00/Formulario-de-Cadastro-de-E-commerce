@@ -2,6 +2,7 @@
 <p align="center">Um site de Cadastro E-commerce que puxa o endereço pelo cep inserido usando <code>json</code> e <code>strictmode</code></p>
 
 <h1 align="center">Introdução</h1>
+
 ![](img/Captura%20de%20tela%202023-10-27%20091603.png)
 <p align="center">Assim que você inserir o email será direcionado para a segunda página</p>
 
