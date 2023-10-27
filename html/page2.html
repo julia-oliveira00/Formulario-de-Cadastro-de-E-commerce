@@ -6,9 +6,62 @@
     <title>Cadastro</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='../css/index.css'>
-    <script src='../js/index.js'></script>
+    <script src='../js/index.js' defer></script>
 </head>
 <body>
-    
+    <div class="singup page2Sing">
+        <form class="form">
+          <h1>Olá</h1>
+          <h4>Para continuar, preencha os campos abaixo</h4>
+          <div>
+            <label for='name'>Nome</label><br>
+            <input type='text' id='name' name='name' placeholder="Nome completo" autocomplete="on">
+          </div>
+          <div>
+            <label for='date'>Data de Nascimento</label><br>
+            <input type='date' id='date' autocomplete="on">
+          </div>
+          <div>
+            <label for='fone'>Telefone</label><br>
+            <input type='text' id='fone' placeholder="(XX) XXXXX-XXXX" autocomplete="on">
+          </div>
+            <div>
+                <label for="inputZip" class="form-label">CEP</label><br>
+                <input type="text" class="form-control" id="cep">
+            </div>
+            
+            <div>
+              <label for="inputAddress" class="form-label">Endereço</label><br>
+              <input type="text" class="form-control" id="rua" placeholder="Joaquim Nabuco">
+            </div>
+            <div>
+              <label for="inputAddress" class="form-label">Número</label><br>
+              <input type="text" class="form-control" id="numero" placeholder="1234">
+            </div>
+            <div>
+              <label for="inputAddress2" class="form-label">Bairro</label><br>
+              <input type="text" class="form-control" id="bairro">
+            </div>
+            <div>
+              <label for="inputCity" class="form-label">Cidade</label><br>
+              <input type="text" class="form-control" id="cidade">
+            </div>
+            <div>
+              <label for="inputState" class="form-label">Estado</label><br>
+              <input id="estado" class="form-control">
+            </div>
+            <div>
+              <label for='password'>Senha</label><br>
+              <input type='password' id= 'password' autocomplete="on"><br>
+            </div>
+          <div>
+            <label for='password'>Confirme a Senha</label><br>
+            <input type='password' id= 'passwordconfirm' autocomplete="on"><br>
+          </div><br>
+          <div id="button">
+            <a href="page2.html" onclick="Validate()">FINALIZAR</a>
+        </div>
+        </form>
+      </div>
 </body>
 </html>
